@@ -29,23 +29,23 @@ public class Autorizacion
         await _next(httpContext);
 
 
-        //if (authHeader != null && authHeader.StartsWith("Auth-wsDatosSocio123"))
-        //{
-        //    string encodeAuthorization = authHeader.Substring("Auth-wsDatosSocio123".Length).Trim();
+        if (authHeader != null && authHeader.StartsWith("Auth-wsDatosSocio123"))
+        {
+            string encodeAuthorization = authHeader.Substring("Auth-wsDatosSocio123".Length).Trim();
 
-        //    if (authHeader.Equals(_settings.auth_wsDatosSocio))
-        //    {
-        //        await _next(httpContext);
-        //    }
-        //    else
-        //    {
-        //        await ResException(httpContext, "No autorizado", Convert.ToInt32(System.Net.HttpStatusCode.Unauthorized), System.Net.HttpStatusCode.Unauthorized.ToString());
-        //    }
-        //}
-        //else
-        //{
-        //    await ResException(httpContext, "No autorizado", Convert.ToInt32(System.Net.HttpStatusCode.Unauthorized), System.Net.HttpStatusCode.Unauthorized.ToString());
-        //}
+            if (authHeader.Equals(_settings.auth_wsDatosSocio))
+            {
+                await _next(httpContext);
+            }
+            else
+            {
+                await ResException(httpContext, "No autorizado", Convert.ToInt32(System.Net.HttpStatusCode.Unauthorized), System.Net.HttpStatusCode.Unauthorized.ToString());
+            }
+        }
+        else
+        {
+            await ResException(httpContext, "No autorizado", Convert.ToInt32(System.Net.HttpStatusCode.Unauthorized), System.Net.HttpStatusCode.Unauthorized.ToString());
+        }
     }
 
     internal async Task ResException(HttpContext httpContext, String infoAdicional, int statusCode, string str_res_id_servidor)

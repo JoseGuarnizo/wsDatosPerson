@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "sQLPzQ/hM7XD4ffC53uVWt5NbIhHgJ1lgSHuK1AZumHXvRrK7QITNrK8gpESzTevsXd1riUkZyc/Kbg05d+I4g==",
+  "dgSpecHash": "4RBJaSEMofUiG6yC8h83o4fSK1Jcrt0Q/uIr8cUWfEJjqyk0N7W8ry9ZlyG8CL2SEvC/W054Ho4u6zraNpE9LQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\viejo\\OneDrive\\Escritorio\\CoopMego\\Capacitaciones\\wsGetDatosSocio\\Infraestructure\\Infraestructure.csproj",
+  "projectFilePath": "C:\\Users\\viejo\\OneDrive\\Escritorio\\ProyectosJoseGuarnizo\\wsDatosPerson\\Infraestructure\\Infraestructure.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\viejo\\.nuget\\packages\\awssdk.core\\3.7.106.40\\awssdk.core.3.7.106.40.nupkg.sha512",
     "C:\\Users\\viejo\\.nuget\\packages\\mediatr\\11.0.0\\mediatr.11.0.0.nupkg.sha512",

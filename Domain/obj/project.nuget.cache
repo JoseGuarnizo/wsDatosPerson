@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "p6egtgc9dlmII3PBZF7Wl6MPZ9wrKaJla8eXFsb7rvPtn9yVJ/j0bJ3kDzzWUjpiybqdHbY8BxeQ6te4FxX1yQ==",
+  "dgSpecHash": "mu9wwwHH/YsXqpC3z7xcyd7CRnR0XuEChvSUBvhjRWEbyeqe3WNrhLO0R5J2Tth7VfrCtVKUZIFl0wvn0kg77A==",
   "success": true,
-  "projectFilePath": "C:\\Users\\viejo\\OneDrive\\Escritorio\\CoopMego\\Capacitaciones\\wsGetDatosSocio\\Domain\\Domain.csproj",
+  "projectFilePath": "C:\\Users\\viejo\\OneDrive\\Escritorio\\ProyectosJoseGuarnizo\\wsDatosPerson\\Domain\\Domain.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }
