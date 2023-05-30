@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "P+dRs6ozAKc8zdoHnshYDkHKiG8n4BSK41SnO38MJhg=",
+  "Source": "wsGetDatosSocio",
+  "BasePath": "_content/wsGetDatosSocio",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}
